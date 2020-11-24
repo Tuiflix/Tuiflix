@@ -7,7 +7,7 @@
 
 /* This defines the space required for each section of the website */
 section{
-    padding: 300px;
+    padding: 200px;
 }
 
 /* This creates specific properties for the first section */
@@ -20,4 +20,5 @@ section{
 .First_Section h1{
     color: violet;
     font-size: 100px;
+    font-family: 'Nova Round', cursive;
 }
