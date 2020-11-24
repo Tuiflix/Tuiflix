@@ -6,3 +6,9 @@
 section{
     padding: 100px;
 }
+.First_Section{
+    background-color: black;
+}
+.First_Section h1{
+    color: white;
+}
