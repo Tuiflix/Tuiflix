@@ -4,11 +4,13 @@
     margin: unset;
 }
 section{
-    padding: 100px;
+    padding: 300px;
 }
 .First_Section{
-    background-color: black;
+    background-image: url(Math.jpeg);
+    opacity: 50%;
 }
 .First_Section h1{
-    color: white;
+    color: violet;
+    font-size: 100px;
 }
