@@ -1,15 +1,22 @@
+/* This removes predefined properties from the code */
 *{
     text-decoration: unset;
     padding: unset;
     margin: unset;
 }
+
+/* This defines the space required for each section of the website */
 section{
     padding: 300px;
 }
+
+/* This creates specific properties for the first section */
 .First_Section{
     background-image: url(Math.jpeg);
     opacity: 50%;
 }
+
+/* Properties for the top header */
 .First_Section h1{
     color: violet;
     font-size: 100px;
