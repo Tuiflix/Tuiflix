@@ -12,13 +12,46 @@ section{
 
 /* This creates specific properties for the first section */
 .First_Section{
-    background-image: url(Math.jpeg);
+    background-color: thistle;
     opacity: 50%;
 }
 
 /* Properties for the top header */
 .First_Section h1{
-    color: violet;
+    color: white;
     font-size: 100px;
     font-family: 'Nova Round', cursive;
+}
+
+/* About Section */
+section.About{
+    background-color: turquoise;
+}
+
+.About h1{
+    font-size: 100px;
+    font-family: 'Nova Round', cursive;
+    display: flex;
+}
+
+/* Responsiveness Of The Website */
+
+@media (max-width: 8.5in) {
+/* Properties for the top header */
+.First_Section h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+}
+
+/* About Section */
+section.About{
+    background-color: turquoise;
+}
+
+.About h1{
+    font-size: 50px;
+    font-family: 'Nova Round', cursive;
+    display: flex;
+}
 }
