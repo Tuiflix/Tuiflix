@@ -1,57 +1,53 @@
-/* This removes predefined properties from the code */
-*{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
     text-decoration: unset;
-    padding: unset;
-    margin: unset;
 }
-
-/* This defines the space required for each section of the website */
-section{
-    padding: 200px;
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(background.png);
+    background-size: cover;
+    background-position: center;
 }
-
-/* This creates specific properties for the first section */
-.First_Section{
-    background-color: thistle;
-    opacity: 50%;
-}
-
-/* Properties for the top header */
-.First_Section h1{
-    color: white;
-    font-size: 100px;
-    font-family: 'Nova Round', cursive;
-}
-
-/* About Section */
-section.About{
-    background-color: turquoise;
-}
-
-.About h1{
-    font-size: 100px;
-    font-family: 'Nova Round', cursive;
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-/* Responsiveness Of The Website */
-
-@media (max-width: 8.5in) {
-/* Properties for the top header */
-.First_Section h1{
+.logo {
+    width: 120px;
+    cursor: pointer;
     color: white;
-    font-size: 50px;
-    font-family: 'Nova Round', cursive;
+    font-size: 20px;
+    font-family: 100px;
 }
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
 
-/* About Section */
-section.About{
-    background-color: turquoise;
-}
-
-.About h1{
-    font-size: 50px;
-    font-family: 'Nova Round', cursive;
-    display: flex;
-}
 }
